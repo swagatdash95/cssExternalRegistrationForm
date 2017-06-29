@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			External Registration
+		</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body >
+		<header>
+			<h1 >REGISTRATION FORM</h1>
+		</header>
+		<fieldset >
+			<legend>User Information</legend>
+			<form action="" >
+
+			Firstname:<input  type="text" name="fname" placeholder="first name" required><span>*</span><br>
+			Lastname:<input type="text" name="lname" placeholder="Last name" required><span>*</span><br>
+			Email:<input type="email" name="email" placeholder="email" required><span>*</span><br>
+			Password:<input  type="password" name="pwd" required><span>*</span><br>
+			Confirm Password:<input type="password" name="cnfpwd" required><span>*</span><br>
+			Gender:<input  type="text" name="gender" placeholder="gender" required><span>*</span><br>
+			Phone 1:<input type="number" name="pno" placeholder="phone number" required><span>*</span><br>
+			Phone 2:<input type="number" name="pno2" placeholder="phone number2"><br>
+			Address 1:<input type ="text" name="addr1" placeholder="address1" required><span>*</span><br>
+			Address 2:<input type ="text" name="addr2" placeholder="address2"><br>
+			City:<input type="text" name="city" placeholder="city" required><span>*</span><br>
+			State:<select  name="state" required>
+					<option value="Odisha">Odisha</option>
+					<option value="Chattisgarh">Chattisgarh</option>
+					<option value="Andhra Pradesh">AndhraPradesh</option>
+					<option value="Karnataka">Karnataka</option>
+					<option value="Uttar Pradesh">UttarPradesh</option>
+					<option value="Rajasthan">Rajasthan</option>
+				</select><span>*</span><br>
+			Country:<select  name="Country" required>
+					<option value="India">India</option>
+					<option value="USA">USA</option>
+					<option value="Japan">Japan</option>
+					<option value="France">France</option>
+					<option value="Srilanka">Srilanka</option>
+					<option value="Canda">Canda</option>
+				</select><span>*</span><br>
+			Subscribe Newsletter? 
+					<input  type="radio" name="news" value="yes" checked>yes
+					<input  type="radio" name="news" value="no"> no<br>
+				
+					
+		</fieldset>	
+		<input id="sub" type="submit" name="submit">
+		</form>
+	</body>
+</html>
